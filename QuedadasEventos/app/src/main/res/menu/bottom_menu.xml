@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_events"
+        android:icon="@drawable/events"
+        android:title="Eventos"
+    />
+
+    <item
+        android:id="@+id/nav_community"
+        android:icon="@drawable/community"
+        android:title="Comunidad" />
+
+    <item
+        android:id="@+id/nav_joined_events"
+        android:icon="@drawable/check"
+        android:title="Asistencia" />
+
+    <item
+        android:id="@+id/nav_my_events"
+        android:icon="@drawable/owner"
+        android:title="Owner" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile"
+        android:title="Perfil" />
+
+</menu>

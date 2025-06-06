@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">QuedadasEventos</string>
+    <string name="crear">¿No tienes cuenta?, crear</string>
+    <string name="completa_usuario_y_contrasena">Completa usuario y contraseña</string>
+    <string name="descubre_quedadas_cerca_de_ti">Descubre quedadas cerca de ti y vive tu pasión por los juegos de mesa.</string>
+    <string name="es_hora_de_jugar">¡Es hora de jugar! Te damos la bienvenida a Quedadas Board Games.</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="vamos_a_quedar">¡Vamos a quedar!</string>
+    <string name="error_de_autenticacion">Error de autenticación</string>
+    <string name="token_guardado">Token guardado</string>
+    <string name="error_de_conexion">"Error de conexión: "</string>
+    <string name="unete_a_la_comunidad_de_jugadores">Únete a la comunidad de jugadores</string>
+    <string name="crea_tu_cuenta_y_comienza">Crea tu cuenta y comienza a descubrir quedadas increíbles.</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="confirmar_contrasena">Confirmar contraseña</string>
+    <string name="crear_cuenta">¡Crear cuenta!</string>
+    <string name="ya_tienes_cuenta_inicia_sesion">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="email">Email</string>
+    <string name="error_recuperando_perfil">Error recuperando perfil</string>
+    <string name="seguidores">Seguidores</string>
+    <string name="seguidos">Seguidos</string>
+    <string name="usuarios_que_aun_no_sigues">Usuarios que aún no sigues</string>
+    <string name="seguir">Seguir</string>
+    <string name="dejar_de_seguir">Dejar de seguir</string>
+    <string name="listado_de_eventos">Listado de eventos</string>
+    <string name="eventos_creados_por_ti">Eventos creados por ti</string>
+    <string name="eventos_a_los_que_te_has_inscrito">Eventos a los que te has inscrito</string>
+    <string name="inscribirse">Inscribirse</string>
+    <string name="desinscribirse">Desinscribirse</string>
+    <string name="eliminar">Eliminar</string>
+</resources>

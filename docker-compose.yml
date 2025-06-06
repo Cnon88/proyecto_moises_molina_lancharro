@@ -1,0 +1,54 @@
+services:
+  # Base de datos MySQL
+  mysql:
+    image: mysql:8.0
+    container_name: quedadas-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: quedadas_db
+      MYSQL_USER: quedadas
+      MYSQL_PASSWORD: 1234
+    ports:
+      - "3307:3306"  # Puerto 3307 en el host para evitar conflictos
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - quedadas-network
+    command: ["--log_bin_trust_function_creators=1"]
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
+
+  # Aplicación Spring Boot
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: quedadas-backend
+    restart: unless-stopped
+    environment:
+      # Variables de entorno para la base de datos
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_NAME: quedadas_db
+      DB_USER: quedadas
+      DB_PASSWORD: 1234
+      DB_SCHEMA: quedadas_db
+    ports:
+      - "8080:8080"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    networks:
+      - quedadas-network
+
+
+volumes:
+  mysql_data:
+    driver: local
+
+networks:
+  quedadas-network:
+    driver: bridge
