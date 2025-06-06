@@ -106,8 +106,8 @@ public class SeleccionarUbicacionActivity extends AppCompatActivity implements O
             actualizarMarcador(ubicacionSeleccionada);
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ubicacionSeleccionada, 15f));
         } else {
-            // Centrar en Madrid por defecto
-            LatLng madrid = new LatLng(40.4168, -3.7038);
+            // Centrar en Sevilla por defecto
+            LatLng madrid = new LatLng(37.392529, -5.994072);
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(madrid, 12f));
         }
     }
