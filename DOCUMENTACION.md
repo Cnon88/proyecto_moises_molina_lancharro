@@ -152,7 +152,7 @@ class UsuarioServicio {
 
 ## Diagrama Entidad-Relación
 
-![Entidad Relacion](img-docs/entidad-relacion.jpeg)
+![Entidad Relacion](img-docs/entidad-relacion.png)
 
 ## Diagrama de Componentes
 
@@ -169,13 +169,6 @@ graph LR
     BACKEND <-->|JDBC| BD
     ANDROID -->|HTTP| MAPS
 ```
-
-
-### Componentes Principales
-
-
-
----
 
 ## Casos de Prueba
 
