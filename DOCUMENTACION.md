@@ -152,9 +152,7 @@ class UsuarioServicio {
 
 ## Diagrama Entidad-Relación
 
-### Modelo de Base de Datos
-
----
+![Entidad Relacion](img-docs/entidad-relacion.jpeg)
 
 ## Diagrama de Componentes
 
@@ -181,6 +179,12 @@ graph LR
 
 ## Casos de Prueba
 
+### Listado de tests
+![Listado de Tests](img-docs/test-passed.jpeg)
+
+### Cobertura
+![Cobertura](img-docs/cobertura-paquete-servicios.jpeg)
+![Cobertura desde IDE](img-docs/cobertura-desde-ide.jpeg)
 
 
 ---
@@ -290,9 +294,7 @@ Testing: JUnit 5, Mockito
 
 ### 🙏 Agradecimientos
 
-- **Profesorado DAM** por la guía y supervisión durante el desarrollo
-- **Comunidad de Desarrolladores** por recursos y documentación disponible
-- **Compañeros de Clase** por feedback y pruebas beta
+A todos los que confiaron en mi.
 
 ---
 
