@@ -75,7 +75,7 @@ Disponemos de dos opciones:
 7. Localizar la clase `ApiClient` en el paquete `com.moises.quedadaseventos.retrofit` y cambiar la variable `BASE_URL` para que apunte a la ip de la red donde esta levantado el backend.  Por ejemplo en mi casa sería "http://192.168.1.100:8080/"
 
 ### Pasos para descargar la APK y usarla en entorno productivo ya desplegado (solo hace falta instalar la apk, ya que apunta a un entorno de internet donde esta desplegada la bd y la api)
-Ir a ... y descargar la APK.
+Descargar la apk desde [https://github.com/Cnon88/proyecto_moises_molina_lancharro/releases/download/tag_entrega/app-debug.apk](https://github.com/Cnon88/proyecto_moises_molina_lancharro/releases/download/tag_entrega/app-debug.apk)
 Se debe permitir la instalación de fuentas desconocidas en el móvil android.
 
 ---
