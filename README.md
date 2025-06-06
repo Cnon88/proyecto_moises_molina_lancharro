@@ -23,7 +23,7 @@
 
 ## Introducción
 
-**Quedadas Board Games** es una aplicación Android diseñada para facilitar la organización de eventos de juegos de mesa entre usuarios. Ofrece funciones como registro, geolocalización de eventos, gestión de perfiles, amigos y calendario de disponibilidad. La idea nace de la necesidad de encontrar compañeros de juego de forma sencilla y organizada.
+**Quedadas Board Games** es una aplicación Android diseñada para facilitar la organización de eventos de juegos de mesa entre usuarios. Ofrece funciones como registro, geolocalización de eventos, gestión de perfiles, amigos y calendario de evento. La idea nace de la necesidad de encontrar compañeros de juego de forma sencilla y organizada.
 
 ### Justificación
 
@@ -76,6 +76,7 @@ Disponemos de dos opciones:
 
 ### Pasos para descargar la APK y usarla en entorno productivo ya desplegado (solo hace falta instalar la apk, ya que apunta a un entorno de internet donde esta desplegada la bd y la api)
 Descargar la apk desde [https://github.com/Cnon88/proyecto_moises_molina_lancharro/releases/download/tag_entrega/app-debug.apk](https://github.com/Cnon88/proyecto_moises_molina_lancharro/releases/download/tag_entrega/app-debug.apk)
+
 Se debe permitir la instalación de fuentas desconocidas en el móvil android.
 
 ---
@@ -88,7 +89,8 @@ Se trata de una aplicación amigable y fácil de usar. Se puede consultar el pro
 
 ## Documentación del proyecto
 
-La documentación del proyecto se encuentra en formato Markdown en github en el siguiente enlace ....
+La documentación del proyecto se encuentra en formato Markdown en github en el siguiente enlace [Documentación](https://github.com/Cnon88/proyecto_moises_molina_lancharro/blob/main/DOCUMENTACION.md)
+
 La documentación de la api se encuentra desplegada en [https://actively-glad-roughy.ngrok-free.app/swagger-ui/index.html](https://actively-glad-roughy.ngrok-free.app/swagger-ui/index.html)
 
 ---
@@ -111,7 +113,7 @@ En conjunto, este proyecto ha reforzado mi capacidad para trabajar en entornos m
 
 ## Contribuciones, agradecimientos y referencias
 
-Rellenar....
+A mis padres y a mi pareja por soportarme en esta etapa
 
 ---
 
